@@ -1,0 +1,31 @@
+Dependencies for Project 'serial', Target 'Target 1': (DO NOT MODIFY !)
+F (.\startup_LPC11xx.s)(0x559DA58A)(--cpu Cortex-M0 -g --apcs=interwork -IC:\Keil_v5\ARM\RV31\INC-IC:\Keil_v5\ARM\CMSIS\Include-IC:\Keil_v5\ARM\INC\NXP\LPC11xx--pd "__UVISION_VERSION SETA 526"--list .\listings\startup_lpc11xx.lst --xref -o .\objects\startup_lpc11xx.o --depend .\objects\startup_lpc11xx.d)
+F (.\system_LPC11xx.c)(0x511A9F60)(--c99 --gnu -c --cpu Cortex-M0 -g -O0 --apcs=interwork --split_sections-IC:\Keil_v5\ARM\RV31\INC-IC:\Keil_v5\ARM\CMSIS\Include-IC:\Keil_v5\ARM\INC\NXP\LPC11xx-D__UVISION_VERSION="526"-o .\objects\system_lpc11xx.o --omf_browse .\objects\system_lpc11xx.crf --depend .\objects\system_lpc11xx.d)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x599FA01E)
+I (C:\Keil_v5\ARM\INC\NXP\LPC11xx\LPC11xx.h)(0x559DA688)
+I (C:\Keil_v5\ARM\CMSIS\Include\core_cm0.h)(0x559DB07A)
+I (C:\Keil_v5\ARM\CMSIS\Include\core_cmInstr.h)(0x559DB07A)
+I (C:\Keil_v5\ARM\CMSIS\Include\core_cmFunc.h)(0x559DB07A)
+I (C:\Keil_v5\ARM\INC\NXP\LPC11xx\system_LPC11xx.h)(0x570420F2)
+F (.\main.c)(0x5CB2747C)(--c99 --gnu -c --cpu Cortex-M0 -g -O0 --apcs=interwork --split_sections-IC:\Keil_v5\ARM\RV31\INC-IC:\Keil_v5\ARM\CMSIS\Include-IC:\Keil_v5\ARM\INC\NXP\LPC11xx-D__UVISION_VERSION="526"-o .\objects\main.o --omf_browse .\objects\main.crf --depend .\objects\main.d)
+I (C:\Keil_v5\ARM\INC\NXP\LPC11xx\LPC11xx.h)(0x559DA688)
+I (C:\Keil_v5\ARM\CMSIS\Include\core_cm0.h)(0x559DB07A)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x599FA01E)
+I (C:\Keil_v5\ARM\CMSIS\Include\core_cmInstr.h)(0x559DB07A)
+I (C:\Keil_v5\ARM\CMSIS\Include\core_cmFunc.h)(0x559DB07A)
+I (C:\Keil_v5\ARM\INC\NXP\LPC11xx\system_LPC11xx.h)(0x570420F2)
+I (C:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x599FA01C)
+I (C:\Keil_v5\ARM\ARMCC\include\rt_misc.h)(0x599FA01E)
+I (C:\Keil_v5\ARM\ARMCC\include\stddef.h)(0x599FA01C)
+F (.\Serial.c)(0x511A9F61)(--c99 --gnu -c --cpu Cortex-M0 -g -O0 --apcs=interwork --split_sections-IC:\Keil_v5\ARM\RV31\INC-IC:\Keil_v5\ARM\CMSIS\Include-IC:\Keil_v5\ARM\INC\NXP\LPC11xx-D__UVISION_VERSION="526"-o .\objects\serial.o --omf_browse .\objects\serial.crf --depend .\objects\serial.d)
+I (C:\Keil_v5\ARM\INC\NXP\LPC11xx\LPC11xx.h)(0x559DA688)
+I (C:\Keil_v5\ARM\CMSIS\Include\core_cm0.h)(0x559DB07A)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x599FA01E)
+I (C:\Keil_v5\ARM\CMSIS\Include\core_cmInstr.h)(0x559DB07A)
+I (C:\Keil_v5\ARM\CMSIS\Include\core_cmFunc.h)(0x559DB07A)
+I (C:\Keil_v5\ARM\INC\NXP\LPC11xx\system_LPC11xx.h)(0x570420F2)
+F (.\Retarget.c)(0x511A9F60)(--c99 --gnu -c --cpu Cortex-M0 -g -O0 --apcs=interwork --split_sections-IC:\Keil_v5\ARM\RV31\INC-IC:\Keil_v5\ARM\CMSIS\Include-IC:\Keil_v5\ARM\INC\NXP\LPC11xx-D__UVISION_VERSION="526"-o .\objects\retarget.o --omf_browse .\objects\retarget.crf --depend .\objects\retarget.d)
+I (C:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x599FA01C)
+I (C:\Keil_v5\ARM\ARMCC\include\rt_misc.h)(0x599FA01E)
+I (C:\Keil_v5\ARM\ARMCC\include\stddef.h)(0x599FA01C)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x599FA01E)

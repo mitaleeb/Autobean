@@ -1,0 +1,10 @@
+--cpu Cortex-M0
+".\objects\startup_lpc11xx.o"
+".\objects\system_lpc11xx.o"
+".\objects\main.o"
+".\objects\serial.o"
+".\objects\retarget.o"
+--strict --scatter ".\Objects\serial.sct"
+--summary_stderr --info summarysizes --map --load_addr_map_info --xref --callgraph --symbols
+--info sizes --info totals --info unused --info veneers
+--list ".\Listings\serial.map" -o .\Objects\serial.axf
