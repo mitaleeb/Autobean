@@ -62,18 +62,18 @@ int main()
 	SER_init();
 	configureGPIO();
 	//SystemInit(); //called by Startup Code before main(), hence no need to call again.
-	initTimer0(); //Initialize Timer0
+	//initTimer0(); //Initialize Timer0
 	
 	while(1){
-		delayMS(5000); //5 Second Delay
-		ledOff();
-		/*if(((LPC_GPIO1->DATA)&1)== 0){
+		//delayMS(5000); //5 Second Delay
+		//ledOff();
+		if(((LPC_GPIO1->DATA)&1)== 0){
 			ledOff();
 		}
 		else {
 			ledOn();
-		} */
-		printf("Led On, Iteration \n");
+		} 
+		//printf("Led On, Iteration \n");
 		//while(1);
 	}
 	}
